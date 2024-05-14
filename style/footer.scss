@@ -1,0 +1,120 @@
+.footer {
+      margin-top: 10px;
+      color: #fff;
+}
+  
+.footer .top-footer {
+      background-color:#2D4059;
+      display: flex;
+      justify-content: space-around;
+      padding: 50px 0;
+      align-items: center;
+}
+  
+.footer .top-footer .center{
+      display: flex;
+      gap: 20px;
+      width: 95%;
+      max-width: 1400px;
+      margin: 0 auto;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between
+}
+
+.footer .top-footer .center .section {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+}
+  
+.footer .top-footer .center .section .logo {
+      width: 50px;
+      height: 50px;
+      background-color: #C4C4C4;
+      color: #EA5455;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.footer .top-footer .center .section .content{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+}
+
+.footer .top-footer .center .section .content h3{
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 20px;
+      color: #E5E5E5;
+}
+
+.footer .top-footer .center .section .content p{
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+      font-size: 17px;
+      line-height: 20px;
+      color: #E5E5E5;
+}
+
+.footer .bottom-footer {
+      background-color: #E5E5E5;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+}
+
+.footer .bottom-footer .center{
+      display: flex;
+      gap: 20px;
+      width: 95%;
+      max-width: 1400px;
+      margin: 50px auto;
+      align-items: center;
+      justify-content: center;
+}
+  
+.footer .bottom-footer .center .left-list,
+.footer .bottom-footer .center .right-list {
+      width: 50%;
+}
+
+.footer .bottom-footer .center .right-list{
+      text-align: end;
+}
+  
+.footer .bottom-footer .center .left-list ul,
+.footer .bottom-footer .center .right-list ul {
+      list-style-type: none;
+      padding: 0;
+}
+  
+.footer .bottom-footer .center .left-list ul li,
+.footer .bottom-footer .center .right-list ul li {
+      margin-bottom: 5px;
+}
+
+.footer .bottom-footer .center .left-list ul li a,
+.footer .bottom-footer .center .right-list ul li a {
+      text-decoration: none;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 43px;
+      color: #2D4059;
+}
+
+@media (max-width: 650px) {
+      .footer .top-footer .center .section {
+            align-items: flex-start;
+            flex-direction: column;
+      }
+    }
