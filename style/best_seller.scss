@@ -1,0 +1,63 @@
+.best-seller{
+    display: flex;
+    gap: 73px;
+    margin: 0 auto;
+
+    &_section-title{
+        margin-bottom: 47px;
+    }
+
+    &_container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-items: center;
+        gap: 21px;
+    }
+
+    &_card {
+        width: 263px;
+        box-shadow: 0px 0px 19px 0px #0000001A;
+        border-radius: 6px;
+
+        img{
+            padding: 16px 22px 11px 22px;
+        }
+    }
+
+    &_info {
+        justify-content: space-between;
+        display: flex;
+        padding: 6px 23px;
+
+        &_stock{
+            color: #42CC58;
+        }
+    }
+
+    &_title{
+        padding: 0 23px;
+    }
+}
+
+.mobile{
+    display: none;
+}
+
+.arrow:first-child{
+    transform: rotate(180deg);
+}
+
+@media screen and (max-width : 425px) {
+
+    .best-seller_container{
+        grid-template-columns: 1fr;
+    }
+
+    .best-seller_card{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+    }
+}
