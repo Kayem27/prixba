@@ -7,6 +7,12 @@
   list-style: none;
 }
 
+.main__container {
+  padding: 7em;
+  font-family: "Montserrat", sans-serif;
+  width: 70em;
+  margin: 0 auto;
+}
 .main__container .faq__main {
   width: 40em;
   margin: 0 auto;

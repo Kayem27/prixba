@@ -4,6 +4,11 @@ $blue: #2d4059;
 $gray: #e5e5e5;
 
 .main__container {
+  padding: 7em;
+  font-family: $font;
+  width: 70em;
+  margin: 0 auto;
+
   .faq__main {
     width: 40em;
     margin: 0 auto;
