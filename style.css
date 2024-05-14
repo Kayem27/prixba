@@ -1,10 +1,9 @@
 /* Error: expected "{".
  *   ,
- * 3 |   display: flex;
- *   |                ^
+ * 2 | @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+ *   |                                                                                                                ^
  *   '
- *   style\header.scss 3:16  @import
- *   style\main.scss 4:9     root stylesheet */
+ *   style\main.scss 2:112  root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -14,5 +13,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a   \2577 \a 3 \2502    display: flex;\d\a   \2502                 ^\a   \2575 \a   style\\header.scss 3:16  @import\a   style\\main.scss 4:9     root stylesheet';
+  content: 'Error: expected "{".\a   \2577 \a 2 \2502  @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");\d\a   \2502                                                                                                                 ^\a   \2575 \a   style\\main.scss 2:112  root stylesheet';
 }
