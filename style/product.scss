@@ -84,10 +84,10 @@ $blue: #2d4059;
   }
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 990px) {
   .main__pcontainer {
     padding: 7em;
-    width: 38em;
+    width: 65em;
     .section___one {
       display: flex;
       flex-direction: row;
@@ -95,8 +95,8 @@ $blue: #2d4059;
       padding-bottom: 3em;
 
       .article__one--img {
-        width: 18em;
-        height: 25em;
+        width: 22em;
+        height: 28em;
       }
 
       .article__two {
@@ -126,11 +126,5 @@ $blue: #2d4059;
       display: flex;
       justify-content: flex-start;
     }
-  }
-}
-
-@media screen and (min-width: 990px) {
-  .main__pcontainer {
-    width: 60em;
   }
 }
