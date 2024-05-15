@@ -27,3 +27,18 @@
         }
     }
 }
+
+// Respnsive
+@media screen and (max-width:800px) {
+    .offers_container{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .offer_title {
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width:700px) {
+    .offers_container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
