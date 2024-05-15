@@ -3,14 +3,13 @@ $font: "Montserrat", sans-serif;
 $blue: #2d4059;
 $gray: #e5e5e5;
 
-.main__container {
-  padding: 7em;
+.main__fcontainer {
+  padding: 2em;
   font-family: $font;
-  width: 70em;
+  width: 90%;
   margin: 0 auto;
 
   .faq__main {
-    width: 40em;
     margin: 0 auto;
 
     h3 {
@@ -60,6 +59,26 @@ $gray: #e5e5e5;
 
     .faq__bloc p {
       font-size: 0.8em;
+    }
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .main__fcontainer {
+    padding: 6em 0;
+    margin: 0 auto;
+    width: 40em;
+
+    h3 {
+      font-size: 1.5em;
+    }
+
+    article {
+      font-size: 1.2em;
+    }
+
+    .faq__main {
+      margin: 0 auto;
     }
   }
 }
