@@ -128,3 +128,9 @@ $blue: #2d4059;
     }
   }
 }
+
+@media screen and (min-width: 990px) {
+  .main__pcontainer {
+    width: 60em;
+  }
+}
