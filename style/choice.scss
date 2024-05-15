@@ -2,6 +2,11 @@
     display: flex;
     justify-content: center;
     gap: 44px;
+    max-width: 1115px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+
+    position: relative;
 
     &_image {
         width: 342px;
@@ -19,11 +24,5 @@
         font-size: 20px;
         color:#EA5455;
         font-weight: 700;
-    }
-}
-
-@media screen and (max-width: 752px) {
-    .choice_container{
-        flex-direction: column;
     }
 }

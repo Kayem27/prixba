@@ -8,16 +8,22 @@
 
 .offers_container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(165px, 1fr));
     margin: 0 auto;
     gap: 24px;
+
+    max-width: 1115px;
+
+    width: 100%;
+
+    position: relative;
 
     &_icon {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 30px;
+        padding: 26px;
         background-color: #2D4059;
         border-radius: 25px;
         
@@ -26,19 +32,9 @@
             padding-top: 16px;
         }
     }
-}
 
-// Respnsive
-@media screen and (max-width:800px) {
-    .offers_container{
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-    .offer_title {
-        margin-left: 10px;
-    }
-}
-@media screen and (max-width:700px) {
-    .offers_container{
-        grid-template-columns: 1fr 1fr;
+    // Responsive
+    @media screen and (max-width: 425px) {
+        grid-template-columns: 1fr 1fr; /* Override here for responsiveness */
     }
 }

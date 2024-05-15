@@ -12,4 +12,13 @@
     font-size: 30px;
     font-weight: 700;
     font-family: "Montserrat";
+    position: absolute;
+    top: -50px;
+    left: 0;
+}
+
+@media screen and (max-width : 660px) {
+    .title {
+        top: -75px;
+    }
 }
